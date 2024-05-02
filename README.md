@@ -30,12 +30,14 @@ pip install -r requirements.txt
 
 ## Usage
 
-### AT-Beta, AT-EM and AT-Beta-EM
+### Run AT-Beta-EM
 
 ```python
-# run the following training script to run AT-Beta-EM
+# run the following training script to run AT-Beta-EM on CIFAR100
 bash train-AT-Beta-EM.sh
 ```
+
+The pre-trained model is at https://www.dropbox.com/s/axfuary2w1cnyrg/imagenet_linf_4.pt?e=1&dl=0.
 
 ## Experiment
 We run the experiment on four datasets with three adversarial training methods. Our method AT-UR achieves stronger CP-efficiency consistently.
@@ -60,3 +62,6 @@ year={2024}
 ## Contact
 
 **Please feel free to get in touch at**: `ziquanliu.cs@gmail.com`
+
+### Acknowledgement
+We use [robustness](https://github.com/MadryLab/robustness) package in the robust model fine-tuning.
