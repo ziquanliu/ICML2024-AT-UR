@@ -38,6 +38,8 @@ pip install -r requirements.txt
 ```
 
 ## Experiment
+We run the experiment on four datasets with three adversarial training methods. Our method AT-UR achieves stronger CP-efficiency consistently.
+<img src="./images/main_results.png" width="750"/>
 
 ## Citation
 
