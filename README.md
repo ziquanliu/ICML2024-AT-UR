@@ -33,8 +33,8 @@ pip install -r requirements.txt
 ### AT-Beta, AT-EM and AT-Beta-EM
 
 ```python
-# run the following code
-
+# run the following training script to run AT-Beta-EM
+bash train-AT-Beta-EM.sh
 ```
 
 ## Experiment
